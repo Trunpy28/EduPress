@@ -1,7 +1,8 @@
-import Home from "../pages/Home"
+import Home from "../pages/HomePage/Home"
 import SignIn from "../pages/Auth/SignIn"
 import SignOut from "../pages/Auth/SignOut"
 import NotFoundPage from "../pages/NotFoundPage"
+import CoursesPage from "../pages/CourseListPage/CoursesPage"
 export const routes = [
     {
         path: '/sign-in',
@@ -16,6 +17,11 @@ export const routes = [
     {
         path: '/',
         page: Home,
+        adminManage: false
+    },
+    {
+        path: '/courses',
+        page: CoursesPage,
         adminManage: false
     },
     { 
