@@ -58,8 +58,12 @@ function UserHeader() {
           </NavListWrapper>
 
           <AccountHeader>
-            <NavItem to="/sign-in">Login</NavItem>
-            <NavItem to="/sign-out">Logout</NavItem>
+            <NavBox to="/sign-in">
+              <NavItem to="/sign-in">Sign In</NavItem>            
+            </NavBox>
+            <NavBox to="/sign-up">
+              <NavItem to="/sign-up">Sign Up</NavItem>
+            </NavBox>
             <IconButton>
               <img src={searchLogo} css={css`height: 40px;`}/>
             </IconButton>

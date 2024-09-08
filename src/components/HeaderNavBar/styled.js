@@ -52,6 +52,5 @@ export const AccountHeader = styled.div`
   display: flex;
   align-items: center;
   height: 100%;
-  gap: 0 20px;
 `
 

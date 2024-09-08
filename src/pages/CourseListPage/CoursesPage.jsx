@@ -35,7 +35,7 @@ function CoursesPage() {
   const coursesPerPage = 10;  // Số khóa học trên mỗi trang
 
   const breadcrumbs = [
-    <Link underline="none" key="1" color="inherit" href="/">
+    <Link underline="hover" key="1" color="inherit" href="/">
       Homepage
     </Link>,
     <Typography key="2" sx={{ color: 'text.primary' }}>
@@ -161,7 +161,6 @@ function CoursesPage() {
     <div
       css={css`
         background-color: white;
-        padding-top: 50px;
         padding-bottom: 50px;
         display: flex;
         flex-direction: column;

@@ -1,8 +1,8 @@
 import Home from "../pages/HomePage/Home"
 import SignIn from "../pages/Auth/SignIn"
-import SignOut from "../pages/Auth/SignOut"
 import NotFoundPage from "../pages/NotFoundPage"
 import CoursesPage from "../pages/CourseListPage/CoursesPage"
+import SignUp from "../pages/Auth/SignUp"
 export const routes = [
     {
         path: '/sign-in',
@@ -10,8 +10,8 @@ export const routes = [
         adminManage: false
     },
     {
-        path: '/sign-out',
-        page: SignOut,
+        path: '/sign-up',
+        page: SignUp,
         adminManage: false
     },
     {
